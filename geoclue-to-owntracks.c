@@ -1,13 +1,10 @@
-/* vim: set et ts=8 sw=8: */
-/* where-am-i.c
- *
+/*
  * Copyright (C) 2013 Red Hat, Inc.
  * Copyright (C) 2016 Thomas Weißschuh.
  *
  * Geoclue is free software; you can redistribute it and/or modify it under
  * the terms of the GNU General Public License as published by the Free
- * Software Foundation; either version 2 of the License, or (at your option)
- * any later version.
+ * Software Foundation; version 3.
  *
  * Geoclue is distributed in the hope that it will be useful, but WITHOUT ANY
  * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
@@ -18,7 +15,8 @@
  * with Geoclue; if not, write to the Free Software Foundation, Inc.,
  * 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  *
- * Author: Zeeshan Ali (Khattak) <zeeshanak@gnome.org>
+ * Original Author: Zeeshan Ali (Khattak) <zeeshanak@gnome.org>
+ * Author: Thomas Weißschuh <geoclue-to-owntracks@t-8ch.de>
  */
 
 #include <stdlib.h>

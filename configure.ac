@@ -1,5 +1,5 @@
 AC_INIT(geoclue-to-owntracks, 1.0)
-AM_INIT_AUTOMAKE([1.11 silent-rules])
+AM_INIT_AUTOMAKE([1.11 silent-rules foreign])
 LT_INIT
 
 AC_PROG_CC
