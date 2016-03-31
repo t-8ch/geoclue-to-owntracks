@@ -19,6 +19,9 @@
  *  * integrate with glib mainloop?
  */
 
+const ot_accuracy OT_ACCURACY_UNKNOWN = 0;
+const ot_accuracy OT_ACCURACY_MIN = 1;
+const ot_accuracy OT_ACCURACY_MAX = 12;
 static int keepalive_seconds = 120;
 
 struct owntracks_mosquitto_userdata {

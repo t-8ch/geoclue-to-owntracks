@@ -1,6 +1,6 @@
 #pragma once
 
 
-const double battery_error = 0;
+const double battery_error;
 
 double battery_get_percent();

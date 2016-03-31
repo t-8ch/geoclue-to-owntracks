@@ -12,9 +12,9 @@ enum owntracks_status {
 typedef unsigned char ot_accuracy;
 typedef uint64_t ot_timestamp;
 
-const ot_accuracy OT_ACCURACY_UNKNOWN = 0;
-const ot_accuracy OT_ACCURACY_MIN = 1;
-const ot_accuracy OT_ACCURACY_MAX = 12;
+const ot_accuracy OT_ACCURACY_UNKNOWN;
+const ot_accuracy OT_ACCURACY_MIN;
+const ot_accuracy OT_ACCURACY_MAX;
 
 void owntracks_lib_init();
 void owntracks_lib_cleanup();

@@ -10,6 +10,8 @@
 #error Your platform is not supported
 #endif
 
+const double battery_error = 0;
+
 static const char const *sys_fs_dir = "/sys/class/power_supply/BAT0/";
 
 static uint64_t get_battery_value(const char *s) {
