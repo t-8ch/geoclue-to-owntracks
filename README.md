@@ -23,6 +23,7 @@ TODO
 * Proper teardown (will need a owntracks/mosquitto GSource)
 * HTTP transport
 * Support for more batteries
+* Submit accuracies
 
 Dependencies
 ------------
